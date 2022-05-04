@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pineapple.ico" type="image/x-icon">
+    <title>Feira da Brenda</title>
+    <link rel="stylesheet" href="repeticoes.css">
+</head>
+<body background="fundo.jpg" >
+    <header>
+        <h1>FEIRA DA BRENDA!</h1>
+        <h3>PRECINHOS CAMARADAS :)</h3>
+        
+    </header>
+    <section>
+        <!--aqui é a div para cadastro-->
+        <div id="Cadastro">
+            <h2><b>CADASTRO</b></h2>
+            <h3>Digite seus dados:</h3>
+            <p>Nome Completo: <input type="text" name="nomeCliente" id="nomeCliente"></p>
+            <p>Endereço: <input type="text" name="endereco" id="endereco"></p>
+            <p>Email: <input type="email" required> </p>
+            <p>Forma de Pagamento: 
+                <input type="radio" name="radioPag" id="dinheiro" checked>
+                <label for="dinheiro">Dinheiro</label>
+                <input type="radio" name="radioPag" id="cartao">
+                <label for="cartao">Cartão</label>
+            </p>
+            <p>Telefone para contato: <input type="text" name="telefone" id="telefone"></p>
+
+        </div>
+        <div id="produtos"> 
+            <h2><b>PRODUTOS DISPONÍVEIS</b></h2>
+            <h3>Escolha a quantidade:</h3>
+            <p>Maçã <input type="number" name="txtmaca" id="txtmaca"></p>
+            <p>Pera <input type="number" name="txtpera" id="txtpera" ></p>
+            <p>Abacaxi <input type="number" name="txtabacaxi" id="txtabacaxi"></p>
+        </div>
+         <div id="finalPedido" onclick="finalizar()" >
+            <input type="button" value="Finalizar Pedido">
+        
+         </div>
+    </section>
+    <footer>
+        <p>@CursoEmVideo</p>
+    </footer>
+    <script src="lojinhaScript.js"></script>
+    
+</body>
+</html>

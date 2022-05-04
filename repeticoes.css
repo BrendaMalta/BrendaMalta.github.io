@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 235, 123);
+    font: normal 15pt Arial
+}
+header{
+    text-align: center;
+    color:rgb(90, 29, 82);
+}
+section{
+    background: rgb(255, 249, 231);
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+}
+
+h2{
+    background: rgb(158, 158, 189);
+    margin:auto;
+    border-radius: 10px;
+    width: 350 px;
+    text-align: center;
+    font: normal 17pt Arial ;
+}
+h3{
+    padding: 5px;
+    margin: auto;
+    font: normal 15pt Arial;
+}
+p{
+    font: normal 13pt Arial;
+}
+div {
+    padding: 8px;
+        
+}
+footer{
+    text-align: center;
+    color: white;
+
+}
